@@ -85,6 +85,23 @@ III. DHCP you too my brooo
 
 🌞 Wireshark it
 
+1st trame (Discover): 
+      -source = 9A-99-8D-41-24-71 
+      -destination = FF:FF:FF:FF:FF:FF (broadcast)
+2nd trame (Offer): 
+      -source = 00:c0:e7:e0:04:4e (MAC de la passerelle du réseau)
+      -destination = 9A-99-8D-41-24-71
+3rd trame (Request): 
+      -source = 9A-99-8D-41-24-71
+      -destination = 00:c0:e7:e0:04:4e
+4th trame (Acknowledge): 
+      -source = 00:c0:e7:e0:04:4e
+      -destination = 9A-99-8D-41-24-71
+  
+Ip à utiliser = 192.168.0.2
+Adresse IP de la passerelle du réseau = 10.33.19.254
+Adresse d'un serveur DNS joignable depuis ce réseau = 8.8.8.8
+
 🦈 PCAP qui contient l'échange DORA
 
 ![dora](dora.pcapng)
@@ -95,4 +112,8 @@ IV. Avant-goût TCP et UDP
 
 🌞 Wireshark it
 
+L'adresse ip de la video youtube est 216.58.214.78 et le port est 443
+
 🦈 PCAP qui contient un extrait de l'échange qui vous a permis d'identifier les infos
+
+![wireytbe](wireytbe.pcapng)
