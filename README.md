@@ -93,7 +93,6 @@ III. DHCP you too my brooo
 IV. Avant-goût TCP et UDP
 
 
-
 🌞 Wireshark it
 
 🦈 PCAP qui contient un extrait de l'échange qui vous a permis d'identifier les infos
