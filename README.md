@@ -26,7 +26,7 @@ Statistiques Ping pour 192.168.0.1:
     Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
 Durée approximative des boucles en millisecondes :
     Minimum = 1ms, Maximum = 2ms, Moyenne = 1ms
-    ```
+```
 
 🌞 Wireshark it
 
