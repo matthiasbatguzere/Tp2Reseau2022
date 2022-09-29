@@ -57,9 +57,27 @@ Déterminez la MAC de la gateway de votre réseau:
 
 🌞 Manipuler la table ARP
 
+utilisez une commande pour vider votre table ARP:
+```
+PS C:\Windows\system32> arp -d
+```
+Prouvez que ça fonctionne en l'affichant et en constatant les changements, ré-effectuez des pings, et constatez la ré-apparition des données dans la table ARP:
+```
+Interface : 192.168.0.2 --- 0x7
+  Adresse Internet      Adresse physique      Type
+  192.168.0.1           10-82-86-0b-15-00     dynamique
+  192.168.0.63          ff-ff-ff-ff-ff-ff     statique
+  224.0.0.22            01-00-5e-00-00-16     statique
+  224.0.0.251           01-00-5e-00-00-fb     statique
+  224.0.0.252           01-00-5e-00-00-fc     statique
+  239.255.255.250       01-00-5e-7f-ff-fa     statique
+  255.255.255.255       ff-ff-ff-ff-ff-ff     statique
+  ```
+
 🌞 Wireshark it
 
 🦈 PCAP qui contient les trames ARP
+
 
 
 III. DHCP you too my brooo
