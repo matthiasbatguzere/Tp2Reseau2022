@@ -9,9 +9,24 @@ Les deux IPs choisies, en précisant le masque:
               
 L'adresse de réseau -> 192.168.0.0
 
-L'adresse de broadcast -> 
+L'adresse de broadcast -> 192.168.0.63
               
 🌞 Prouvez que la connexion est fonctionnelle entre les deux machines
+
+```
+PS C:\Windows\system32> ping 192.168.0.1
+
+Envoi d’une requête 'Ping'  192.168.0.1 avec 32 octets de données :
+Réponse de 192.168.0.1 : octets=32 temps=2 ms TTL=128
+Réponse de 192.168.0.1 : octets=32 temps=1 ms TTL=128
+Réponse de 192.168.0.1 : octets=32 temps=1 ms TTL=128
+Réponse de 192.168.0.1 : octets=32 temps=1 ms TTL=128
+
+Statistiques Ping pour 192.168.0.1:
+    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
+Durée approximative des boucles en millisecondes :
+    Minimum = 1ms, Maximum = 2ms, Moyenne = 1ms
+    ```
 
 🌞 Wireshark it
 
