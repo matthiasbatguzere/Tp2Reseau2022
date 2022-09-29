@@ -41,17 +41,25 @@ II. ARP my bro
 
 
 🌞 Check the ARP table
+
+Utilisez une commande pour afficher votre table ARP:
 ```
 PS C:\Windows\system32> arp -a
 ```
+Déterminez la MAC de votre binome depuis votre table ARP:
+```
+ 192.168.0.1           10-82-86-0b-15-00
+```
+Déterminez la MAC de la gateway de votre réseau:
+```
+ 10.33.19.254          00-c0-e7-e0-04-4e
+```
+
 🌞 Manipuler la table ARP
 
 🌞 Wireshark it
 
 🦈 PCAP qui contient les trames ARP
-
-
-II.5 Interlude hackerzz
 
 
 III. DHCP you too my brooo
