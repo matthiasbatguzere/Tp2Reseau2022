@@ -30,8 +30,12 @@ Durée approximative des boucles en millisecondes :
 
 🌞 Wireshark it
 
+Le ping que l'on recoit est une request 
+Le ping que l'on recoit est une replie
+
 🦈 PCAP qui contient les paquets ICMP qui vous ont permis d'identifier les types ICMP
 
+![fichierwire](wiresharktp2.pcapng)
 
 II. ARP my bro
 
