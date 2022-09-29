@@ -41,7 +41,9 @@ II. ARP my bro
 
 
 🌞 Check the ARP table
-
+```
+PS C:\Windows\system32> arp -a
+```
 🌞 Manipuler la table ARP
 
 🌞 Wireshark it
